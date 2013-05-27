@@ -21,6 +21,10 @@ html {
 	font-family: 'Source Sans Pro', Arial, sans-serif;
 }
 
+body {
+	background: url(graphics/bg_anodized3_05.png) #F3F3F3;
+}
+
 code {
 	font-family: 'Droid Sans', 'Courier New', 'Courier', sans-serif;
 }
@@ -168,6 +172,10 @@ a:hover {
 
 /* =Content
 -------------------------------------------------------------- */
+
+.entry-content {
+	background: #FFF;
+}
 
 .sticky {
 }
