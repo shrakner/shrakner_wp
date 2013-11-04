@@ -99,6 +99,11 @@ h1 {
     border-left: 1px solid #999;
 }
 
+iframe {
+    max-width: 100%;
+}
+
+
 /* =Structure
 -------------------------------------------------------------- */
 
@@ -118,7 +123,13 @@ h1 {
     float: right;
     overflow: hidden;
     width: 220px;
+    padding: 10px;
+    background: url("graphics/bg_anodized3_05.png") #111;
 }
+.widget-area:hover .widget {
+    opacity: 1.0;
+}
+
 #colophon {
     clear: both;
     display: block;
@@ -179,7 +190,7 @@ h1 {
     background: #eee;
     display: block;
     float: left;
-    margin: 0 auto 1em;
+    margin: 0 auto;
     width: 100%;
 }
 #access ul {
@@ -464,7 +475,16 @@ article.comment {
 
 .widget {
     display: block;
+    opacity: 0.75;
+    color: #CCC;
+    font-weight: 300;
 }
+
+.widget-title {
+    color: #CCC;
+    font-weight: 200;
+}
+
 .widget-area .widget_search {
     overflow: hidden;
 }
@@ -477,8 +497,8 @@ article.comment {
 
 .widget ul li {
     list-style-type: none;
-    border-left: 4px solid #999;
-    background-color: rgba(255,255,255,0.5);
+    border-left: 4px solid rgba(255,255,255,0.5);
+    background-color: #000;
     margin-bottom: 5px;
     padding-left: 5px;
 }
