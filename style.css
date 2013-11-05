@@ -503,6 +503,10 @@ article.comment {
     padding-left: 5px;
 }
 
+.widget a {
+    color: #8CA0B3;
+}
+
 
 /* =Footer
 -------------------------------------------------------------- */
